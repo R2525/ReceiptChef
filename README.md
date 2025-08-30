@@ -5,11 +5,6 @@ Google **Generative AI (Gemini)** 를 사용해 영수증 인식을 보조하고
 
 ---
 
-
-https://github.com/user-attachments/assets/575ac10b-7ea4-49b8-9d27-f751840775bc
-
-
-
 ## 핵심 기능 (What this app does)
 
 - **영수증 분석**: 채팅 화면에서 카메라/앨범을 선택해 영수증 이미지를 업로드하면, 품목/금액/날짜를 추출해 **결제목록**과 **식자재**에 반영
@@ -21,6 +16,10 @@ https://github.com/user-attachments/assets/575ac10b-7ea4-49b8-9d27-f751840775bc
   - 채팅을 이용한 **삭제/변경** 은 미구현
 
 > 참고: 인증은 데모용(로컬)이며, `ApiService`는 샘플 서버 엔드포인트를 가리키도록 작성되어 있습니다.
+
+
+https://github.com/user-attachments/assets/f53c7b71-00e0-4d52-a846-462c327e5509
+
 
 ---
 
