@@ -13,12 +13,11 @@ Google **Generative AI (Gemini)** 를 사용해 영수증 인식을 보조하고
   - 유통기한이 오늘보다 **이전**이면 **빨간 배지(“유통기한 지남”)** 표시
   - 각 항목에 **삭제 버튼** 제공
 - **채팅**: Gemini로 간단한 Q&A
+  - 채팅을 이용한 **삭제/변경** 은 미구현
 
 > 참고: 인증은 데모용(로컬)이며, `ApiService`는 샘플 서버 엔드포인트를 가리키도록 작성되어 있습니다.
 
 ---
-
-## 꼭 변경해야 하는 것
 
 ### 1 Google Generative AI **API Key** 설정
 파일: **`lib/services/generative_ai_service.dart`**
@@ -31,8 +30,6 @@ class GenerativeAIService {
 ```
 
 - 키 발급: [Google AI Studio](https://aistudio.google.com/) 에서 발급
-- 보안상 **레포지토리에 키를 커밋하지 마세요.**
-  - 권장: 런타임 주입, `.env` + `flutter_dotenv` 등으로 관리 (필요 시 후속 가이드 제공)
 
 ### 2 API 서버 베이스 URL (미완성)
 파일: **`lib/services/api_service.dart`**
@@ -44,8 +41,6 @@ class ApiService {
   ...
 }
 ```
-
-- 샘플 서버를 사용 중이라면, **로컬 IP** 또는 **실 서버 주소**로 바꿔주세요.
 
 ---
 
