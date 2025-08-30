@@ -77,3 +77,7 @@ class ApiService {
     - `item.expiryAsDate` / `item.expiryFormatted` / `item.isExpired`
 
 ---
+
+
+https://github.com/user-attachments/assets/e8c81fe4-0c2b-47bd-8500-027073822299
+
